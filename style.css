@@ -1,0 +1,204 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f3e8;
+}
+
+/* Header */
+header {
+    background-color: #8c6d3c; /* Cor amadeirada */
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Barra de Pesquisa */
+.search-bar {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+.search-bar input {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#search-results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 250px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: none; /* Oculto por padrão */
+}
+
+#search-results li {
+    padding: 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+#search-results li:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+/* Main Content */
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    color: #8c6d3c; /* Cor amadeirada */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Lista de Bolos */
+#cake-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cake-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cake-list button {
+    background-color: #8c6d3c; /* Cor amadeirada */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#cake-list button:hover {
+    background-color: #8c6d3c; /* Cor amadeirada */
+    
+
+}
+
+/* Carrinho de Compras */
+#cart {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+#cart-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cart-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Botões */
+button {
+    background-color: #8c6d3c; /* Cor amadeirada */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #7b5f3a;
+}
+
+/* Formulários */
+form {
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #8c6d3c; /* Cor amadeirada */
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #7b5f3a;
+}
+
+/* Footer */
+footer {
+    background-color: #8c6d3c; /* Cor amadeirada */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
